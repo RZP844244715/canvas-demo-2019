@@ -1,3 +1,6 @@
+document.body.ontouchstart = function(hhh){
+    hhh.preventDefault()
+}
 var yyy = document.getElementById('canvas')
 var lineWidth = '3'
 autoSetCanvasSize(yyy)
