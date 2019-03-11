@@ -9,7 +9,10 @@ ol>li{
     list-style: none;
 }
 canvas{
-    background: wheat;
+    background: #fff;
+    /* position: fixed; */
+    /* top:0;
+    left: 0; */
 }
 .actions{
     position: fixed;
@@ -55,6 +58,9 @@ canvas{
 }
 .colors li.blue{
     background: blue;
+}
+.colors li.yellow{
+    background: yellow;
 }
 .colors li.active{
     width: 30px;

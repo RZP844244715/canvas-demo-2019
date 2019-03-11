@@ -1,6 +1,3 @@
-document.body.ontouchstart = function(hhh){
-    hhh.preventDefault()
-}
 var yyy = document.getElementById('canvas')
 var lineWidth = '3'
 autoSetCanvasSize(yyy)
@@ -134,6 +131,7 @@ black.onclick = function () {
     red.classList.remove('active')
     green.classList.remove('active')
     blue.classList.remove('active')
+    yellow.classList.remove('active')
 }
 red.onclick = function () {
     context.strokeStyle = 'red'
@@ -141,6 +139,7 @@ red.onclick = function () {
     black.classList.remove('active')
     green.classList.remove('active')
     blue.classList.remove('active')
+    yellow.classList.remove('active')
 }
 green.onclick = function () {
     context.strokeStyle = 'green'
@@ -148,6 +147,7 @@ green.onclick = function () {
     red.classList.remove('active')
     black.classList.remove('active')
     blue.classList.remove('active')
+    yellow.classList.remove('active')
 }
 blue.onclick = function () {
     context.strokeStyle = 'blue'
@@ -155,6 +155,15 @@ blue.onclick = function () {
     black.classList.remove('active')
     red.classList.remove('active')
     green.classList.remove('active')
+    yellow.classList.remove('active')
+}
+yellow.onclick = function () {
+    context.strokeStyle = 'yellow'
+    yellow.classList.add('active')
+    black.classList.remove('active')
+    red.classList.remove('active')
+    green.classList.remove('active')
+    blue.classList.remove('active')
 }
 
 thin.onclick = function(){
